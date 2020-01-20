@@ -1,0 +1,133 @@
+
+.heading-h1{
+    font-size: 30px;
+    color: #222831;
+    font-family: AxiformaSemiBold;
+}
+
+.simple-txt{
+    font-size: 17px;
+    color: #222831;
+    font-family: AxiformaRegular;
+    opacity: 50%;
+
+}
+
+
+.distance-txt{
+    line-height: 1px;
+    margin-top: 80px;
+}
+
+.outer-box{
+  width: 100%;
+  height:90%;
+  box-shadow: 0px 0px 32px #ccc;
+  margin-top: 30px;
+
+  padding-bottom: 2%;
+
+
+}
+
+.showBtn Button{
+    background-color: #F96D00;
+    width:100%;
+    height: 50px;
+    color: #F2F2F2;
+}
+
+.questions{
+    font-size: 15px;
+    color: #222831;
+    font-family: AxiformaMedium;
+    text-align: left;
+    margin-left: 4%;
+    padding-top: 2%;
+
+}
+
+.avaiable-row{
+    margin-top: 20px;
+
+
+}
+.avaiableBtn-row{
+    margin-top: 10px;
+    margin-bottom: 200px;
+
+}
+
+.available-box{
+    height: 150px;
+    width:100%;
+    background-color: #feefe4;
+    
+}
+.txtt{
+    font-size: 15px;
+    color: #222831;
+    font-family: AxiformaMedium;
+    opacity: 100%;
+    padding-top: 30px;
+    
+
+
+}
+.wallerNbr{
+    font-size: 30px;
+    color: #222831;
+    font-family: AxiformaBold;
+   
+}
+
+.radio_toolbar input[type="checkbox"] {
+    opacity: 0;
+    position: fixed;
+    width: 95%;
+    height: 80px;
+}
+
+
+
+.radio_toolbar label {
+    display: inline-block;
+    width: 95%;
+    height: 50px;
+    background-color: #F2F2F2;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+}
+.radio_toolbar input[type="checkbox"]:checked + label{
+    background-color: #F96D00;
+    color: white;
+    
+}
+
+.radio-toolbar input[type="checkbox"]:focus + label{
+    border: 2px dashed #444;
+}
+
+.radioButtonMargin{
+    margin-left: 1%;
+    margin-right: 25px;
+}
+
+
+@media only screen and (max-width: 1200px){
+    .radio_toolbar label {
+      
+        font-size: 12px;
+      
+    } 
+    .distance-txt{
+        line-height: 20px;
+        margin-top: 40px;
+    }
+   
+
+
+}

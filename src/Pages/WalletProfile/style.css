@@ -1,0 +1,307 @@
+.orange-box {
+  background-color: #f96d00;
+  width: 100%;
+  height: 100px;
+  margin-top: -1px;
+  z-index: -1;
+}
+
+.outer-boxx {
+  z-index: 1;
+  width: 100%;
+  height: 120px;
+  box-shadow: 1px 1px 3px #ccc;
+  margin-top: -60px;
+  background-color: white;
+}
+.outer-boxx img {
+  width: 40%;
+  height: 90%;
+}
+.title-txt {
+  font-size: 22px;
+  color: #222831;
+  font-family: AxiformaRegular;
+}
+
+.review-txt {
+  font-size: 22px;
+  color: #222831;
+  font-family: AxiformaRegular;
+  margin-top: 45px;
+}
+.dropBox {
+  margin-top: 45px;
+  float: right;
+}
+
+.ant-dropdown-link {
+  color: #222831;
+}
+
+.card-align {
+  display: flex;
+  margin-top: 50px;
+}
+.comment-star-align {
+  display: flex;
+  margin-top: 50%;
+  padding-right: 50px;
+}
+
+.star-img {
+  width: 10%;
+  height: 10%;
+}
+
+.link-img {
+  width: 15%;
+  height: 15%;
+}
+
+.alignn {
+  display: flex;
+  margin-left: 75px;
+}
+.rating-img {
+  width: 38%;
+  height: 38%;
+}
+
+.rating {
+  font-family: AxiformaRegular;
+  margin-top: 1px;
+  color: #f96d00;
+}
+
+.category-txt {
+  color: #f96d00;
+  font-family: AxiformaRegular;
+  font-size: 12px;
+  margin-top: -9px;
+}
+.discription-txt {
+  color: #222831;
+  opacity: 50%;
+}
+
+.apple-btn {
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 80%;
+  background-color: transparent;
+  color: #222831;
+  border-color: #222831;
+  font-size: 13px;
+  border: 2px solid;
+  border-radius: 20px;
+}
+.google-btn {
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 90%;
+  background-color: transparent;
+  color: #222831;
+  border-color: #222831;
+  font-size: 13px;
+  border: 2px solid;
+  border-radius: 4px;
+}
+.btn-img {
+  width: 20%;
+  height: 70%;
+  float: left;
+  margin-right: 3px;
+}
+
+.promotion-btn {
+  background-color: #f96d00;
+  color: white;
+  margin-top: 30px;
+  width: 60%;
+  border-radius: 5px;
+}
+
+.comment-box {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 3px #ccc;
+}
+
+.reviewer-name {
+  font-family: AxiformaSemiBold;
+  color: #222831;
+}
+
+.reviewer-comment {
+  font-family: AxiformaRegular;
+  color: #222831;
+  opacity: 50%;
+  margin-top: -5px;
+}
+
+.comments {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.comment-star {
+  height: 15px;
+  width: 15px;
+}
+
+.give-review {
+  background-color: #f2f2f2;
+  display: flex;
+  margin-top: 10px;
+  height: 100px;
+  width: 96%;
+  margin-bottom: 70px;
+}
+
+.give-review-input {
+  background-color: #f2f2f2;
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 4%;
+}
+
+.ant-input:focus {
+  box-shadow: none;
+}
+
+.give-review input {
+  border: none;
+}
+
+.review-btn {
+  font-family: AxiformaRegular;
+  background-color: #f96d00;
+  color: white;
+  border-radius: 3px;
+}
+
+.submit-star {
+  float: right;
+  margin-left: 16%;
+  margin-top: 5%;
+  padding-right: 5px;
+}
+
+.rate {
+  font-size: 15px;
+  padding-right: 5px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .main-div-wallet {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .orange-box {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  .outer-boxx img {
+    width: 80%;
+    height: 90%;
+  }
+  .apple-btn {
+    font-size: 12px;
+  }
+  .google-btn {
+    font-size: 12px;
+  }
+  .btn-img {
+    width: 20%;
+    height: 55%;
+    margin-left: -9px;
+  }
+  .promotion-btn {
+    width: 90%;
+    height: 45px;
+  }
+  .big-data {
+    display: none;
+  }
+  .main-div-wallet {
+    margin-top: 45px;
+  }
+  .upper-div {
+    display: flex;
+    margin-left: 7%;
+  }
+  .lower-div {
+    margin-top: 30px;
+    display: flex;
+    margin-left: 20%;
+  }
+  .spliter {
+    margin-top: 20px;
+    width: 15%;
+  }
+  .star-img {
+    width: 15%;
+    height: 15%;
+  }
+  .ant-dropdown-link {
+    color: #222831;
+    opacity: 50%;
+  }
+  .dropBox {
+    margin-top: 50px;
+  }
+  .comment-star-align {
+    display: flex;
+    margin-top: 50%;
+    padding-right: 50%;
+  }
+  .comment-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 3px #ccc;
+  }
+  .give-review {
+    background-color: #f2f2f2;
+    display: block;
+    margin-top: 10px;
+    height: 100px;
+    width: 96%;
+    margin-bottom: 70px;
+  }
+
+  .give-review-input {
+    background-color: #f2f2f2;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 4%;
+  }
+
+  .submit-star {
+    float: none;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding-right: 5px;
+  }
+  .review-btn {
+    font-family: AxiformaRegular;
+    background-color: #f96d00;
+    color: white;
+    float: right;
+  
+    margin-right: 10px;
+    border-radius: 3px;
+  }
+  .category-txt {
+    color: #f96d00;
+    font-family: AxiformaRegular;
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+  }
+}

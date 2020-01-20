@@ -1,0 +1,118 @@
+body{
+    font-family: 'AxiformaRegular';
+}
+
+.mobileNav{
+    display: none;
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.subNav{
+    background-color: #222831;
+    color: white;
+    font-size: 12px;
+}
+
+.topMain .topSearch{
+    margin-top: 6px;
+}
+
+.ant-menu-horizontal > .ant-menu-item > a{
+    color: white;
+}
+
+.ant-menu-horizontal > .ant-menu-item > a:hover{
+    color: white;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected > a{
+    color: #f96d00;
+}
+
+.subNav img{
+    height: 24px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected{
+    color: #f96d00;
+    border-bottom: 2px solid #f96d00;
+}
+
+.ant-menu-horizontal > .ant-menu-item:hover{
+    color: white;
+    border-bottom: 2px solid #f96d00;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .mobileNav{
+        background-color: #222831;
+        color: white;
+        font-size: 15px;
+        text-align: start;
+        display: block;
+    }
+    
+    .mobileNav img{
+        height: 30px;
+    }
+    
+    .mobileNav span{
+        margin-left: 25%;
+        font-size: 16px;
+        font-family: 'AxiformaSemiBold';
+        color: #f96d00;
+    }
+     
+    .mobileNav p{
+        margin-left: 2%;
+        font-size: 18px;
+        font-family: 'AxiformaSemiBold';
+    }
+
+    .menu_name{
+        margin-left: 30px;
+    }
+
+    .sidepanel  {
+        width: 0;
+        position: fixed;
+        z-index: 10;
+        height: 650px;
+        top: 0;
+        left: 0;
+        background-color: #222831;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidepanel a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidepanel a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidepanel .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+      }
+      .topMain .topSearch{
+          margin-top: 15px;
+      }
+}
+

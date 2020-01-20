@@ -1,0 +1,61 @@
+.merchant-card-main-div {
+  width: 170px;
+  /* background: black; */
+  height: 180px;
+}
+
+.merchant-preffered-stripe1 {
+  width: 150px;
+  height: 25px;
+  z-index: 3;
+  position: absolute;
+  margin-left: -80px;
+}
+.merchant-preffered-stripe2 {
+  z-index: 1;
+  position: absolute;
+  margin-left: -80px;
+  margin-top: 10px;
+}
+.merchant-card-inner-main-div {
+  height: 180px;
+  width: 160px;
+  /* background: brown; */
+  margin-left: 13px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 12px 3px #f2f2f2;
+  border-radius: 3px;
+  position: absolute;
+  z-index: 2;
+}
+
+.merchant-brand-imaage {
+  height: 55px;
+  width: 55px;
+  padding-top: 10px;
+  align-self: center;
+}
+.merchant-brand-name {
+  font-family: AxiformaRegular;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.merchant-brand-reviews {
+  font-family: AxiformaMedium;
+  font-size: 10px;
+  color: #707070;
+  opacity: 0.7;
+}
+.merchant-location-logo {
+  height: 15px;
+}
+.merchant-location-div {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+}
+.merchant-star-rating {
+  margin-top: 10px;
+}

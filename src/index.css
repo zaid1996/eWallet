@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'AxiformaBold';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+
+@font-face {
+  font-family: 'AxiformaBold';
+  src: local('AxiformaBold'), url(./Fonts/AxiformaBold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'AxiformaMedium';
+  src: local('AxiformaMedium'), url(./Fonts/AxiformaMedium.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'AxiformaRegular';
+  src: local('AxiformaRegular'), url(./Fonts/AxiformaRegular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'AxiformaSemiBold';
+  src: local('AxiformaSemiBold'), url(./Fonts/AxiformaSemiBold.woff) format('woff');
+}

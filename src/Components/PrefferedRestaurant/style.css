@@ -1,0 +1,124 @@
+@media screen and (min-width: 992px) {
+  .res-card-main-div {
+    width: 470px;
+    /* background: black; */
+    height: 250px;
+    margin-top: 5%;
+  }
+
+  .res-preffered-stripe1 {
+    width: 150px;
+    height: 25px;
+    z-index: 3;
+    position: absolute;
+    margin-left: -230px;
+  }
+  .res-preffered-stripe2 {
+    z-index: 1;
+    position: absolute;
+    margin-left: -230px;
+    margin-top: 10px;
+  }
+  .res-card-inner-main-div {
+    height: 150px;
+    width: 460px;
+    /* background: brown; */
+    margin-left: 13px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 15px -8px #888;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .res-brand-imaage {
+    height: 55px;
+    width: 90px;
+    align-self: center;
+    margin-top: 30px;
+  }
+  .simulation-res-info-div {
+    display: flex;
+    flex-direction: row;
+    width: 460px;
+    padding-top: 170px;
+    justify-content: space-between;
+  }
+  .simulation-res-info-upload-img {
+    height: 15px;
+    width: 15px;
+    margin-left: 15px;
+  }
+  .simulation-res-info-rating {
+    color: #f96d00;
+    font-family: AxiformaMedium;
+  }
+  .simulation-res-info-name {
+    font-family: AxiformaMedium;
+  }
+}
+@media screen and (max-width: 991px) {
+  .res-card-main-div {
+    width: 90%;
+    /* background: black; */
+    height: 250px;
+  }
+
+  .res-preffered-stripe1 {
+    width: 150px;
+    height: 25px;
+    z-index: 3;
+    position: absolute;
+    margin-left: -46%;
+  }
+  .res-preffered-stripe2 {
+    z-index: 1;
+    position: absolute;
+    margin-left: -46%;
+    margin-top: 10px;
+  }
+  .res-card-inner-main-div {
+    height: 150px;
+    width: 90%;
+    /* background: brown; */
+
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 15px -8px #888;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .res-brand-imaage {
+    height: 55px;
+    width: 90px;
+    align-self: center;
+    margin-top: 30px;
+  }
+  .simulation-res-info-div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 170px;
+    justify-content: space-between;
+  }
+  .simulation-res-info-upload-img {
+    height: 15px;
+    width: 15px;
+    margin-left: 15px;
+  }
+  .simulation-res-info-rating {
+    color: #f96d00;
+    font-family: AxiformaMedium;
+  }
+  .simulation-res-info-name {
+    font-family: AxiformaMedium;
+  }
+}
+.simulation-res-info-location {
+  color: #888;
+  margin-left: 5px;
+  font-size: 14px;
+}

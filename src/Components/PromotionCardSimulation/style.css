@@ -1,0 +1,26 @@
+@media screen and (min-width: 992px) {
+  .simulation-promotion-main {
+    padding: 20px;
+    box-shadow: 0px 0px 15px -8px #888;
+    border-radius: 5px;
+  }
+  .ewallet-brand-reviews {
+    display: block;
+  }
+  .simulation-promo-rating {
+    display: block;
+  }
+}
+@media screen and (max-width: 991px) {
+  .simulation-promotion-main {
+    padding: 5px;
+    box-shadow: 0px 0px 15px -8px #888;
+    border-radius: 5px;
+  }
+  .ewallet-brand-reviews {
+    display: none;
+  }
+  .simulation-promo-rating2 {
+    display: none;
+  }
+}
